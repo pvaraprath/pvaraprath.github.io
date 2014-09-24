@@ -1,3 +1,18 @@
-p {
+h2 {
+  color: #1EA9C2;
+}
+
+.header-name {
+  color:firebrick;
+}
+
+.section-title {
+  color: #1EA9C2;
+}
+
+.biography {
   color: rgb(97, 122, 126);
 }
+
+
+
