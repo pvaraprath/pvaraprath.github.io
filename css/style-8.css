@@ -1,0 +1,55 @@
+.top h1{
+  color: rgb(63, 127, 191);
+  font-family: "Comic Sans MS";
+  font-size: 200%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.top p{
+  color: rgb(63, 127, 191);
+  font-family: "Comic Sans MS";
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: lowercase;
+  text-decoration: underline overline;
+}
+
+.middle h2{
+  color: #3FBF7F;
+  font-family: georgia;
+  font-size: 150%;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  letter-spacing: 1.5em;
+  text-transform: lowercase;
+}
+
+.middle p{
+  color: #3FBF7F;
+  font-family: georgia;
+  font-size: 80%;
+  font-style: italic;
+  word-spacing: .5em;
+}
+
+.bottom h3{
+  color: rgb(191, 63, 191);
+  font-family: courier;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-shadow: 4px 4px 4px #3FBFBF;
+  line-height: 
+}
+
+.bottom p{
+  color: #BF3F3F;
+  font-family: courier;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+  text-indent: 10%;
+  line-height: 300%;
+}
