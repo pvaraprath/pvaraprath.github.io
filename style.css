@@ -1,7 +1,3 @@
-h2 {
-  color: #1EA9C2;
-}
-
 .header-name {
   color:firebrick;
 }
@@ -14,5 +10,6 @@ h2 {
   color: rgb(97, 122, 126);
 }
 
-
-
+.resume h2 {
+  color: #1EA9C2;
+}
