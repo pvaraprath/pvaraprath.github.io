@@ -1,15 +1,43 @@
+body {
+  font-family: 'Muli', sans-serif;
+  color: #92B2A7;
+  text-align: center;
+  font-size: 14px
+}
+
+.header-name, .section-title, .resume h2 {
+  text-align: left;
+  font-family: 'Alegreya SC', serif;
+  color: #6E7B8C;
+  font-size: 150%;
+}
+
 .header-name {
-  color:firebrick;
+  color: #B69198;
+  line-height: 80%;
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 7px;
 }
 
-.section-title {
-  color: #1EA9C2;
+.biography p, .resume ul {
+  text-align: left;
 }
 
-.biography {
-  color: rgb(97, 122, 126);
+.resume h2, .resume ul {
+  text-indent: 1%; 
 }
 
 .resume h2 {
-  color: #1EA9C2;
+  font-size: 120%;
+}
+
+a:link, a:visited, a:hover, a:focus {
+  color: #EFA09B;
+  text-decoration: underline;
+}
+
+a:hover, a:focus {
+  color: #B69198;
+  font-weight: bold;
 }
