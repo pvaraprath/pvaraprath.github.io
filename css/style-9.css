@@ -1,4 +1,28 @@
 body {
   height: 100%;
-  background: url("../images/noisy_grid.png") #EFA09B no-repeat center;
+  background-image: url("../images/noisy_grid.png");
+}
+
+p::before{
+  content: "Instructions: ";
+}
+
+a {
+  color: #CC0C39;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1693A7;
+}
+
+a:hover {
+  color: #E6781E;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:active {
+  color: #C8CF02;
+  font-size: 120%;
 }
