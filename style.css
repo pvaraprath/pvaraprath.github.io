@@ -1,23 +1,36 @@
 body {
   font-family: 'Muli', sans-serif;
-  color: #92B2A7;
+  color: #AD9A6F;
   text-align: center;
-  font-size: 14px
+  font-size: 14px;
+  background-color: #FCFCFC;
 }
 
-.header-name, .section-title, .resume h2 {
-  text-align: left;
-  font-family: 'Alegreya SC', serif;
-  color: #6E7B8C;
-  font-size: 150%;
+header {
+  height: 100%;
+  background-image: url("../images/coconuts_mild_stripe.jpg");
+}
+
+footer {
+  height: 100%;
+  background-color: #F5F1E8;
+  text-align: center;
 }
 
 .header-name {
-  color: #B69198;
+  font-family: 'Alegreya SC', serif;
+  color: #615050;
   line-height: 80%;
   text-align: center;
   font-size: 200%;
   letter-spacing: 7px;
+}
+
+.section-title, .resume h2 {
+  text-align: left;
+  font-family: 'Alegreya SC', serif;
+  color: #776A6A;
+  font-size: 150%;
 }
 
 .biography p, .resume ul {
@@ -32,12 +45,12 @@ body {
   font-size: 120%;
 }
 
-a:link, a:visited, a:hover, a:focus {
-  color: #EFA09B;
+a {
+  color: #AD9A6F;
   text-decoration: underline;
 }
 
-a:hover, a:focus {
-  color: #B69198;
+a:hover, a:active {
+  color: #615050;
   font-weight: bold;
 }
