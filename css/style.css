@@ -1,4 +1,4 @@
-/* Colors:
+/* Colors: Coconut
 darkest: #615050;
 dark: #776A6A;
 medium: #AD9A6F;
@@ -6,29 +6,35 @@ Light: #F5F1E8;
 Lightest: #FCFCFC;
 */
 
+/*Colors: Dream in Color;
+darkest: #1B676B - teal;
+dark: #519548 - green;
+medium: #88C425 - lime green;
+Light: #BEF202 - neon greem;
+Lightest: #EAFDE6 - mint;
+*/
+
+/* Fonts:;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
 body {
-  font-family: 'Muli', sans-serif;
-  color: #AD9A6F;
+  font-family: 'Roboto', sans-serif;
+  color: #EAFDE6;
   text-align: center;
   font-size: 14px;
-  background-color: #FCFCFC;
+  background-color: #1B676B;
 }
 
-header {
+header, footer {
   height: 100%;
-  background-image: url("../images/coconuts_mild_stripe.jpg");
-}
-
-footer {
-  height: 100%;
-  background-color: #F5F1E8;
-  text-align: center;
+  background-image: url("../images/stripe_horizontal.png");
 }
 
 .header-name {
-  font-family: 'Alegreya SC', serif;
-  color: #615050;
-  line-height: 80%;
+  font-family: 'Syncopate', sans-serif;
+  color: #88C425;
   text-align: center;
   font-size: 200%;
   letter-spacing: 7px;
@@ -36,8 +42,8 @@ footer {
 
 .section-title, .resume h2 {
   text-align: left;
-  font-family: 'Alegreya SC', serif;
-  color: #776A6A;
+  font-family: 'Syncopate', sans-serif;
+  color: #88C425;
   font-size: 150%;
 }
 
@@ -54,11 +60,11 @@ footer {
 }
 
 a {
-  color: #AD9A6F;
+  color: #88C425;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 a:hover, a:active {
-  color: #615050;
-  font-weight: bold;
+  color: #EAFDE6;
 }
