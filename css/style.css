@@ -14,6 +14,14 @@ Light: #BEF202 - neon greem;
 Lightest: #EAFDE6 - mint;
 */
 
+/*Colors: Marigold;
+deep red: #671007;
+yellow: #FEFE06;
+marigold: #FE9D0E;
+orange: #EC590B;
+White lace: #FFFDF9;
+*/
+
 /* Fonts:;
 font-family: 'Syncopate', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -25,11 +33,45 @@ body {
   text-align: center;
   font-size: 14px;
   background-color: #1B676B;
+  margin: 0;
 }
 
 header, footer {
+  width: 100%;
   height: 100%;
-  background-image: url("../images/stripe_horizontal.png");
+  padding: 1% 0;
+}
+
+header {
+  border-bottom: 1px double #EAFDE6
+}
+
+footer {
+  border-top: 1px double #EAFDE6
+}
+
+.clear {
+  clear: both;
+}
+
+.biography, .resume {
+  float: left;
+  padding: 0 5%;
+}
+
+.biography {
+  width: 15%;
+}
+
+.resume {
+  width: 65%;
+  background-color: #EAFDE6;
+  color: #1B676B;
+}
+
+img {
+  border: 1px double #EAFDE6;
+  margin: 1em 0;
 }
 
 .header-name {
@@ -40,23 +82,27 @@ header, footer {
   letter-spacing: 7px;
 }
 
-.section-title, .resume h2 {
+.section-title, .resume h2, .resume h3 {
   text-align: left;
   font-family: 'Syncopate', sans-serif;
   color: #88C425;
-  font-size: 150%;
+}
+
+.section-title {
+  font-size: 175%;
 }
 
 .biography p, .resume ul {
   text-align: left;
 }
 
-.resume h2, .resume ul {
-  text-indent: 1%; 
+.resume h2, {
+  font-size: 120%;
 }
 
-.resume h2 {
-  font-size: 120%;
+.resume h3, .resume ul {
+  font-size: 100%;
+  text-indent: 1%;
 }
 
 a {
