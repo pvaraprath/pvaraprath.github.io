@@ -1,11 +1,16 @@
+body, h1, p {
+  margin: 0;
+}
+
 header {
+  background-color: #27dbdb;
   height: 10em;
   width: 100%;
-  background-color: #27dbdb;
 }
 
 .box-model {
+  background-color: #db2727;
   height: 300px;
   width: 300px;
-  background-color: #db2727;
+  border: 5px dashed black;
 }
