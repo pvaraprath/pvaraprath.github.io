@@ -38,16 +38,24 @@ body {
 
 header, footer {
   width: 100%;
-  height: 100%;
   padding: 1% 0;
 }
 
 header {
-  border-bottom: 1px double #EAFDE6
+  border-bottom: 1px double #EAFDE6;
+  position: fixed;
+  z-index: 50;
+  background-color: #1B676B;
+}
+
+.main {
+  z-index: 40;
 }
 
 footer {
-  border-top: 1px double #EAFDE6
+  border-top: 1px double #EAFDE6;
+  z-index: 30;
+  height: 100%;
 }
 
 .clear {
@@ -56,7 +64,8 @@ footer {
 
 .biography, .resume {
   float: left;
-  padding: 0 5%;
+  padding: 150px 5% 0 5%;
+  position: relative;
 }
 
 .biography {
@@ -70,8 +79,11 @@ footer {
 }
 
 img {
-  border: 1px double #EAFDE6;
+  border: 1px double #88C425;
   margin: 1em 0;
+  position: fixed;
+  top: 30px;
+  right: 20px;
 }
 
 .header-name {
