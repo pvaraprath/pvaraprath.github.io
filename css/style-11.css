@@ -12,7 +12,7 @@ body {
 section {
   background-color: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-  margin: 50px auto;
+  margin: 0 auto;
   padding-bottom: 10px;
   width: 400px;
 }
@@ -29,26 +29,23 @@ p {
   margin: 1em 20px;
 }
 
-.top-heading {
+.top-content {
   position: relative;
-  top: -80px;
-  right: 20px;
+  right: 50px;
+  z-index: 50;
 }
 
 .middle-content {
   position: relative;
+  top: -10px;
+  z-index: 40;
 }
 
-.middle-heading {
-  position: absolute;
-  bottom: 0;
-  left: 20px;
-}
-
-.bottom-heading {
-  position: fixed;
-  bottom: 0;
-  left: 0;
+.bottom-content {
+  position: relative;
+  top: -20px;
+  left: 50px;
+  z-index: 30;
 }
 
 
