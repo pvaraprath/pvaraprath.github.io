@@ -1,0 +1,105 @@
+/* Colors:
+Grey: #F8F8F8;
+Dark Grey: #333333;
+White: #FFFFFF;
+Purple: #CC00FF;
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  text-align: left;
+  font-size: 14px;
+  margin: 0;
+}
+
+header, footer {
+  width: 100%;
+  background-color: #F8F8F8;
+  padding: 1% 0;
+}
+
+header {
+  border-bottom: 5px double #F8F8F8;
+  text-align: left;
+}
+
+footer {
+  border-top: 5px double #F8F8F8;
+  text-align: center;
+  height: 100%;
+}
+
+img {
+  margin: 1em 0;
+}
+
+.header-name {
+  font-family: 'Syncopate', sans-serif;
+  color: #CC00FF;
+  font-size: 200%;
+  letter-spacing: 2px;
+}
+
+.header-name h1 {
+  font-size: 200%;
+  font-family: 'Syncopate', sans-serif;
+  letter-spacing: 7px;
+}
+
+.header h2 {
+  font-size: 150%;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+}
+
+#AboutMe, #WhatIDo, #WhatIveDone {
+  font-family: 'Syncopate', sans-serif;
+  color: #CC00FF;
+  font-size: 150%;
+  position: relative;
+}
+
+.background h2 {
+  color: #333333;
+  font-size: 120%;
+}
+
+.background p, {
+  text-indent: 1%;
+}
+
+.clear {
+  clear: both;
+}
+
+.Priya, .projectunderdog, .background, .Priyaimg, .projectunderdogimg, .backgroundimg {
+  float: left;
+  padding: 2px 5% 0 5%;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.projectunderdog, .background, .projectunderdogimg, .backgroundimg {
+  border-top: 5px double #F8F8F8;
+}
+
+.Priyaimg, .projectunderdogimg, .backgroundimg {
+  width: 15%;
+}
+
+.Priya, .projectunderdog, .background {
+  width: 65%;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover, a:active {
+  color: #CC00FF;
+}
