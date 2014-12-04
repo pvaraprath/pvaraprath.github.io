@@ -17,56 +17,89 @@ header, footer {
   width: 100%;
   background-color: #F8F8F8;
   padding: 1% 0;
+  font-weight: bold;
 }
 
 header {
   border-bottom: 5px double #F8F8F8;
   text-align: left;
-}
-
-footer {
-  border-top: 5px double #F8F8F8;
-  text-align: center;
-  height: 100%;
-}
-
-img {
-  margin: 1em 0;
+  position: fixed;
+  z-index: 50;
 }
 
 .header-name {
   font-family: 'Syncopate', sans-serif;
   color: #CC00FF;
   font-size: 200%;
-  letter-spacing: 2px;
+  margin: 0px 50px 0px;
+  display: inline-block;
 }
 
-.header-name h1 {
-  font-size: 200%;
-  font-family: 'Syncopate', sans-serif;
-  letter-spacing: 7px;
-}
-
-.header h2 {
+.header a {
   font-size: 150%;
   font-family: 'Roboto', sans-serif;
   text-align: right;
+  margin: 0px 50px 0px;
+}
+
+.header ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+}
+
+.header li {
+  display: inline;
+  margin: 0px;
+  moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  padding: 1px;
+}
+
+.header li:hover {
+  background-color: #FFFFFF;
+}
+
+footer {
+  border-top: 5px double #F8F8F8;
+  text-align: center;
+  height: 100%;
+  font-weight: bold;
+  position: relative;
+  z-index: 30;
+}
+
+.Priya ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Priya li {
+  margin: 3px;
+  padding: 1px;
+  text-align: left;
 }
 
 #AboutMe, #WhatIDo, #WhatIveDone {
   font-family: 'Syncopate', sans-serif;
   color: #CC00FF;
-  font-size: 150%;
-  position: relative;
+  font-size: 20px;
+}
+
+h1:before {
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
 }
 
 .background h2 {
   color: #333333;
   font-size: 120%;
-}
-
-.background p, {
-  text-indent: 1%;
 }
 
 .clear {
@@ -75,9 +108,10 @@ img {
 
 .Priya, .projectunderdog, .background, .Priyaimg, .projectunderdogimg, .backgroundimg {
   float: left;
-  padding: 2px 5% 0 5%;
-  background-color: #ffffff;
   height: 100%;
+  padding: 75px 5%;
+  position: relative;
+  z-index: 40;
 }
 
 .projectunderdog, .background, .projectunderdogimg, .backgroundimg {
@@ -88,16 +122,18 @@ img {
   width: 15%;
 }
 
+.projectunderdogimg {
+  background-image: url("images/purepeating.jpg");
+}
+
 .Priya, .projectunderdog, .background {
   width: 65%;
-  background-color: #ffffff;
   color: #333333;
 }
 
 a {
   color: #333333;
   text-decoration: none;
-  font-weight: bold;
 }
 
 a:hover, a:active {
