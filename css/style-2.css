@@ -8,7 +8,7 @@ Purple: #CC00FF;
 body {
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
   margin: 0;
 }
@@ -36,151 +36,104 @@ header {
   display: inline-block;
 }
 
-.header a {
-  font-size: 150%;
-  font-family: 'Roboto', sans-serif;
-  text-align: right;
-  margin: 0px 60px 0px;
-}
-
-.header ul {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0;
-  padding: 1px;
-}
-
-.header li {
-  display: inline;
-  margin: 0px;
-  padding: 1px;
-}
-
-.header li:hover {
-  background-color: #FFFFFF;
-}
-
 footer {
   border-top: 5px double #F8F8F8;
   text-align: center;
   height: 100%;
   font-weight: bold;
   background-color: #F8F8F8;
-  position: relative;
-  z-index: 30;
-}
-
-.Priya ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.Priya li {
-  margin: 3px;
-  padding: 1px;
-  text-align: left;
 }
 
 #AboutMe, #WhatIDo, #WhatIveDone {
   font-family: 'Syncopate', sans-serif;
   color: #CC00FF;
-  font-size: 80px;
-  text-align: center;
-}
-
-h1:before {
-  display: block;
-  content: " "; 
-  margin-top: -100px; 
-  height: 100px; 
-  visibility: hidden; 
-}
-
-.background h2, .projectunderdog h2 {
-  color: #333333;
-  font-size: 120%;
-}
-
-.background h2 {
-  text-align: left;
-  border-bottom: 1px solid #333333;
-}
-
-.clear {
-  clear: both;
+  font-size: 500%;
 }
 
 .Priya, .projectunderdog, .background {
   height: 100%;
   padding: 25px 5%;
-  color: #333333;
-  text-align: center;
 }
 
-.Priya h1, .projectunderdog h1, .background h1 {
-  font-size: 200px;
+.gray {
+  background-color: #F8F8F8;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.projectunderdog, .background, {
-  border-top: 5px double #F8F8F8;
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
-.background {
-  position: relative;
-  z-index: 40;
-}
-
-.scroll {
-  width: 1049px;
-  height: 250px;
-  overflow: scroll;
-}
-
-.northeastern, .michiganstate, .currentposition, .nazdeek, .ag, .aclu, .nuig, .media {
-  position: relative;
-  width: 1016px;
-  height: 250px;
-  overflow: hidden;
-}
-
-.northeastern img, .michiganstate img, .currentposition img, .nazdeek img, .ag img, .aclu img, .nuig img, .media img{
-  width: 100%;
-  padding: 0;
-}
-
-.northeastern > div, .michiganstate > div, .currentposition > div, .nazdeek > div, .ag > div, .aclu > div, .nuig > div, .media > div {
-  opacity: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  -webkit-transition: opacity 0.3s linear;
-}
-.northeastern:hover > div, .michiganstate:hover > div, .currentposition:hover > div, .nazdeek:hover > div, .ag:hover > div, .aclu:hover > div, .nuig:hover > div, .media:hover > div {
+/*  COLUMN SETUP  */
+.col {
   display: block;
-  opacity: .5;
-  background-color: #FFFFFF;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
-.northeastern > div div, .michiganstate > div div, .currentposition > div div, .nazdeek > div div, .ag > div div, .aclu > div div, .nuig > div div, .media > div div {
-  padding: 5px 1px;
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content:"";
+  display:table;
+}
+.group:after {
+  clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+                                               
+          
+/*  GRID OF FIVE  */
+.span_5_of_5 {
+  width: 100%;
+}
+.span_4_of_5 {
+  width: 79.68%;
+}
+.span_3_of_5 {
+  width: 59.36%;
+}
+.span_2_of_5 {
+  width: 39.04%;
+}
+.span_1_of_5 {
+  width: 18.72%;
 }
 
-.michiganstate p, .nazdeek p, .aclu p, .media p, .northeastern p, .currentposition p, .ag p, .nuig p {
-  margin-bottom: 2px;
-  opacity: 1;
-  color: black;
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col { 
+    margin: 1% 0 1% 0%;
+  }
 }
 
-.northeastern p, .currentposition p, .ag p, .nuig p {
-  margin-left: 250px;
-  text-align: right;
-}
-
-.michiganstate p, .nazdeek p, .aclu p, .media p {
-  margin-right: 250px;
-  text-align: left;
+@media only screen and (max-width: 480px) {
+  .span_5_of_5 {
+    width: 100%; 
+  }
+  .span_4_of_5 {
+    width: 100%; 
+  }
+  .span_3_of_5 {
+    width: 100%; 
+  }
+  .span_2_of_5 {
+    width: 100%; 
+  }
+  .span_1_of_5 {
+    width: 100%;
+  }
 }
 
 a {
